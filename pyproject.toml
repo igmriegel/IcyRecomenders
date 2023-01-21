@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "icyrecomenders"
+version = "0.1.0"
+description = ""
+authors = ["Igor Riegel <igor.riegel@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+polars = "^0.15.16"
+typer = "^0.7.0"
+numpy = "^1.24.1"
+black = "^22.12.0"
+flake8 = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
